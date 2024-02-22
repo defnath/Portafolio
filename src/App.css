@@ -1,30 +1,9 @@
-/* 
-    Color Scheme:
-    Get your favourite theme here: https://colorhunt.co/ and change all occurrences of below colors
-    
-        #1A1A2E Black
-        #16213E Dark Blue
-        #0F3460 Blue
-        #E94560 Red 
-
-    Fonts:
-    https://fonts.google.com/
-
-    go to google fonts and select one regular and one bold font and replpace the import url
-    change font-family in 
-        html, body
-        ff-jose
-        font-big
-
-*/
-
-
 @import url('https://fonts.googleapis.com/css2?family=Jost&family=Quicksand&display=swap');
 
 html, body{
     margin: 0;
     font-family: 'Quicksand', sans-serif;
-    background-color: #ef56fd;
+    background-color: #EEA5A6;
     color: white;
 }
 
@@ -38,13 +17,13 @@ html, body{
     letter-spacing: 2px;
 }
 .bg-dark{
-    background-color: #a503f0 !important;
+    background-color: #8E7AB5 !important;
 }
 .bg-blue {
-    background-color: #773ac7;
+    background-color: #B784B7;
 }
 .text-red {
-    color: #aa2339;
+    color: #8E7AB5;
 }
 .text-black {
     color: #1A1A2E;
@@ -53,8 +32,8 @@ html, body{
     background-color: #0F3460 !important;
 }
 .active {
-    color: #E94560 !important;
-    background-color: #a503f0 !important;
+    color: #E493B3 !important;
+    background-color: #8E7AB5 !important;
     font-weight: 600;
     transition: transform 0.2s;
     transform: scale(1.1);
@@ -120,7 +99,7 @@ html, body{
 
 .animate-charcter
 {
-  background-image: linear-gradient(-225deg,#ffffff,#e4304e,#E94560,#ffffff);
+  background-image: linear-gradient(-225deg,#ffffff,#8E7AB5,#B784B7,#ffffff);
   background-size: auto auto;
   background-clip: border-box;
   background-size: 200% auto;
@@ -149,11 +128,11 @@ html, body{
 
 /* ===================== Resume ===================== */
 li::marker {
-    color: #E94560;
+    color: #E493B3;
     font-size: 2em;
 }
 .blue-label{
-    background-color: #1a4274;
+    background-color: #E493B3;
     width: max-content;
 }
 .zoom-on-hover:hover {
@@ -164,7 +143,7 @@ li::marker {
 /* ===================== Portfolio ===================== */
 
 .portfolio-link:hover{
-    background-color: #E94560;
+    background-color: #E493B3;
     -webkit-transition: background-color 300ms linear;
     -ms-transition: background-color 300ms linear;
     transition: background-color 300ms linear;

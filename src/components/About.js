@@ -10,8 +10,8 @@ function About() {
                         <div>
                             <h1 className="font-big text-red slide-in-top">Sobre mi</h1>
                             <hr></hr>
-                            <p className='slide-in-bottom'>Estudiante de último ciclo de la carrera de Diseño y Desarrollo de Software en TECSUP. Aspirante a programadora 
-                            backend con dominio en conceptos clave de .NET, Python y JavaScript adquiridos a través de estudios y proyectos personales. Destaco por mi 
+                            <p className='slide-in-bottom'>Profesional de Diseño y Desarrollo de Software en TECSUP. Aspirante a programadora 
+                            fullstack con dominio en conceptos clave de .NET, Python y JavaScript adquiridos a través de estudios y proyectos personales. Destaco por mi 
                             capacidad para resolver conflictos, trabajar en equipo y mi determinación para aprender y aplicar estos conocimientos en un entorno laboral.
                             </p>
                             <p className='slide-in-bottom'>

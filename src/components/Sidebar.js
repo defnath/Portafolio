@@ -31,11 +31,11 @@ function Sidebar() {
                                 <BsCode className='fs-5'/> <span className="ms-1 d-none d-sm-inline ">Habilidades</span>
                             </NavLink>
                         </li>
-                        {/* <li className="nav-item">
+                        <li className="nav-item">
                             <NavLink to="/mywork" className="nav-link align-middle px-0 text-white">
-                                <MdOutlineDashboard className='fs-5'/> <span className="ms-1 d-none d-sm-inline ">Trabajos</span>
+                                <MdOutlineDashboard className='fs-5'/> <span className="ms-1 d-none d-sm-inline">Proyectos</span>
                             </NavLink>
-                        </li> */}
+                        </li>
                         <li className="nav-item">
                             <NavLink to="/resume" className="nav-link align-middle px-0 text-white">
                                 <AiOutlineUnorderedList className='fs-5'/> <span className="ms-1 d-none d-sm-inline ">CV</span>
@@ -45,7 +45,7 @@ function Sidebar() {
                     <hr/>
                     <div className="dropdown pb-4 dropup">
                         <a href="/" className="d-flex align-items-center text-white text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
-                            <MdOutlineContactPage className='fs-3'/>
+                            <MdOutlineContactPage className='fs-1'/>
                             <span className="d-none d-sm-inline mx-1">CONTACTAME</span>
                         </a>
                         <ul className="dropdown-menu shadow" aria-labelledby="dropdownUser1">
